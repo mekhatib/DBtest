@@ -2,7 +2,7 @@
 
 # INSTALL APPLICATION
 sudo mkdir /app
-sudo wget -O /app/gopher_search https://github.com/mekhatib/DBtest/blob/39b9cb72a86631719e77e6b9897ab5f25063e7d1/gopher_search
+sudo wget -O /app/gopher_search https://github.com/niccorp/gopher_search/releases/download/v0.1/gopher_search
 sudo chmod +x /app/gopher_search
 
 connection="postgres://$2:$3@$1:5432/gopher_search_production?sslmode=disable"
